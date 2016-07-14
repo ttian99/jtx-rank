@@ -1,0 +1,22 @@
+{
+  "name": "jtx-rank",
+  "version": "0.0.1",
+  "description": "jtx-rank is used for cocos-game-server to record the rank info",
+  "main": "jtx-rank.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttian99/jtx-rank.git"
+  },
+  "keywords": [
+    "rank"
+  ],
+  "author": "Monkey-Jiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttian99/jtx-rank/issues"
+  },
+  "homepage": "https://github.com/ttian99/jtx-rank#readme"
+}
