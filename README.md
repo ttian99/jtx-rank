@@ -5,10 +5,11 @@ jtx-rank is used for server to record the rank info
 ```js
 // 1.创建排行榜
 /***
- * rankName: 排行榜名称
- * ranksInfo: 排行信息
- * maxRankNum: 排行榜最大记录个数
- * func: 排行榜的排序方法
+ * @param {String} rankName - 排行榜名称
+ * @param {Array} ranksInfo - 排行信息
+ * @param {Number} maxRankNum - 排行榜最大记录个数
+ * @param {Function} func - 排行榜的排序方法
+ * @return {Object} rankObj - 返回排行榜对象
  * */ 
 var rank = require('jtx-rank');
 var worldRanksInfos = [
